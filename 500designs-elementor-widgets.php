@@ -7,7 +7,7 @@
  * Plugin Name: 500 Designs Elementor Widgets
  * Description: Custom Widgets for the 500 Designs sites
  * Plugin URI:  https://www.500designs.com
- * Version:     1.0.1
+ * Version:     1.0.2
  * Author:      500 Designs
  * Author URI:  https://www.500designs.com
  * Text Domain: 500design-elementor-widgets
@@ -34,7 +34,7 @@ $myUpdateChecker->setAuthentication('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');
 
 
 define( 'FHDESIGNS_ELEMENTOR_WIDGETS', __FILE__ );
-define( 'FHDESIGNS_ELEMENTOR_WIDGETS_VERSION', '1.0.1' );
+define( 'FHDESIGNS_ELEMENTOR_WIDGETS_VERSION', '1.0.2' );
 
 /**
  * Include the Unelab_Elementor_Widgets class.
