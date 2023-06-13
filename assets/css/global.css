@@ -1,0 +1,175 @@
+/*****************
+***** Guide ******
+*****************/
+
+.title-500d{
+    color: black;
+}
+
+.fhd-btn{
+    
+}
+
+/***************/
+/*2col sticky*/
+/***************/
+
+.lottie500, .video-container{
+    display: flex !important;
+}
+
+.lottie500 .img-container, .video-container video, .video-container iframe{
+    margin: auto !important;
+    display: flex;
+    justify-content: center;
+}
+
+
+.img-container{
+    display: block;
+}
+.col-sep{
+    display: flex;
+    flex-direction: row;
+}
+.col-sep-inner{
+    width: 50%;
+    display: flex;
+}
+.col-sep.col-left{
+    flex-direction: row-reverse;
+}
+.col-sep-inner-in{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 69px;
+    gap: 20px;
+    height: max-content;
+    width: 100%;
+}
+.vert-align-top{
+    margin: auto;
+    margin-top: 0;
+}
+.vert-align-center{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.vert-align-bottom{
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.lottie-link{
+    display: flex;
+}
+
+.lott-img-col-sticky{
+    min-height: 100vh;
+}
+.content-inner-col-sticky{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.content-innercol-sticky{
+    margin: 0;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    height: auto;
+}
+
+.content-innercol-sticky .content-container{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    height: max-content;
+}
+.content-innercol-sticky .content-container{
+    margin: auto !important;
+}
+
+
+.js-section2,.js-section3,.js-section4,.js-section5,.js-section6,.js-section7{
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.video-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.featimg_video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.play_video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100px;
+    height: auto;
+}
+.pause{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-size: contain;  
+}
+
+@media(max-width:767px){
+
+    .lott-img-col-sticky{
+        min-height: auto;
+    }
+    .content-innercol-sticky{
+        height: auto;
+    }
+    .col-sep {
+        flex-direction: column;
+    }
+    .col-sep.col-left {
+        flex-direction: column;
+    }
+    .col-sep-inner {
+        width: 100%;
+    }
+    .js-section1{
+        position: relative !important;
+    }
+
+    .flex-reverse-direction{
+        flex-direction: column-reverse !important;
+    }
+
+    .col-sep-inner-in{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-innercol-sticky .content-container {
+        position: relative !important;
+        margin: auto !important;
+        opacity: 1 !important;
+        visibility: visible!important;
+    }
+    .scrollmagic-pin-spacer{
+        padding: 0 !important;
+    }
+    .content-container{
+        transform: translateY(0) !important;
+    }
+}
