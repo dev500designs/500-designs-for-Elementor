@@ -27,14 +27,14 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 $myUpdateChecker->setBranch('main');
 
 //Optional: If you're using a private repository, specify the access token like this:
-$myUpdateChecker->setAuthentication('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');
+$myUpdateChecker->setAuthentication('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');
 
 
 /////////////////////////////////////////////////////
 
 
 define( 'FHDESIGNS_ELEMENTOR_WIDGETS', __FILE__ );
-define( 'FHDESIGNS_ELEMENTOR_WIDGETS_VERSION', '1.0.0' );
+define( 'FHDESIGNS_ELEMENTOR_WIDGETS_VERSION', '1.0.1' );
 
 /**
  * Include the Unelab_Elementor_Widgets class.
