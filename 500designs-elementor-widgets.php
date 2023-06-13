@@ -14,6 +14,10 @@
  */
 
 
+add_action('wp_footer', function(){
+    echo 'Version: 1.0.1'
+})
+
 // PLUGIN UPDATER FROM GITHUB
 
 require 'plugin-update-checker/plugin-update-checker.php';
