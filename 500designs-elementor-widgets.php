@@ -6,17 +6,13 @@
  *
  * Plugin Name: 500 Designs Elementor Widgets
  * Description: Custom Widgets for the 500 Designs sites
- * Plugin URI:  https://www.unelab.com
- * Version:     1.0.0
+ * Plugin URI:  https://www.500designs.com
+ * Version:     1.0.1
  * Author:      500 Designs
  * Author URI:  https://www.500designs.com
  * Text Domain: 500design-elementor-widgets
  */
 
-
-add_action('wp_footer', function(){
-    echo 'Version: 1.0.1'
-})
 
 // PLUGIN UPDATER FROM GITHUB
 
