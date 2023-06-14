@@ -70,7 +70,6 @@ class Widgets {
         
 		wp_register_style( '500D-global-css', plugins_url( '/assets/css/global.css', FHDESIGNS_ELEMENTOR_WIDGETS ), array(), FHDESIGNS_ELEMENTOR_WIDGETS_VERSION );
         wp_register_style( 'Font-Awesome', plugins_url( '/assets/libs/fontawesome/css/all.min.css', FHDESIGNS_ELEMENTOR_WIDGETS ), array(), FHDESIGNS_ELEMENTOR_WIDGETS_VERSION );
-
         
 		wp_enqueue_style( '500D-global-css');
 	}
@@ -93,14 +92,8 @@ class Widgets {
 
 
 		wp_register_script( 'Main-js', plugins_url( '/assets/js/main.js', FHDESIGNS_ELEMENTOR_WIDGETS ), [ 'jquery' ], FHDESIGNS_ELEMENTOR_WIDGETS_VERSION, true );
-        //wp_register_script( 'bodymovin2', plugins_url( 'widgets/assets/js/bodymovin.js', FHDESIGNS_ELEMENTOR_WIDGETS ), [ 'jquery' ], FHDESIGNS_ELEMENTOR_WIDGETS_VERSION, true );
-        //wp_enqueue_script( 'bodymovin2', 'https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js');
-        
         wp_enqueue_script("jquery");
-        //wp_enqueue_script( 'Boostrap-js');
-        //wp_enqueue_script( 'Owlcarousel-js');
         wp_enqueue_script( 'Main-js');
-        //wp_enqueue_script( 'bodymovin2');
         
 	}
 

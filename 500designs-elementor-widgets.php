@@ -7,7 +7,7 @@
  * Plugin Name: 500 Designs Elementor Widgets
  * Description: Custom Widgets for the 500 Designs sites
  * Plugin URI:  https://www.500designs.com
- * Version:     1.0.2
+ * Version:     1.0.3
  * Author:      500 Designs
  * Author URI:  https://www.500designs.com
  * Text Domain: 500design-elementor-widgets
@@ -27,14 +27,14 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 $myUpdateChecker->setBranch('main');
 
 //Optional: If you're using a private repository, specify the access token like this:
-$myUpdateChecker->setAuthentication('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');
+$myUpdateChecker->setAuthentication('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');
 
 
 /////////////////////////////////////////////////////
 
 
 define( 'FHDESIGNS_ELEMENTOR_WIDGETS', __FILE__ );
-define( 'FHDESIGNS_ELEMENTOR_WIDGETS_VERSION', '1.0.2' );
+define( 'FHDESIGNS_ELEMENTOR_WIDGETS_VERSION', '1.0.3' );
 
 /**
  * Include the Unelab_Elementor_Widgets class.
