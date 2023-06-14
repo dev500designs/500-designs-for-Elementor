@@ -23,7 +23,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'500-designs-for-Elementor'
 );
 
-$token = "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";
+$token = "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";
 
 //Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('main');
