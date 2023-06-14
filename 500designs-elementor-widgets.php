@@ -23,11 +23,13 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'500-designs-for-Elementor'
 );
 
+$token = "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";
+
 //Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('main');
 
 //Optional: If you're using a private repository, specify the access token like this:
-$myUpdateChecker->setAuthentication('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');
+$myUpdateChecker->setAuthentication($token);
 
 
 /////////////////////////////////////////////////////
