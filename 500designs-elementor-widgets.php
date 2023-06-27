@@ -23,7 +23,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'500-designs-for-Elementor'
 );
 
-$token .= "ghp_8xSp7DTiDJ";
+$token  = "ghp_8xSp7DTiDJ";
 $token .= "mzWwjKJYpw0GeXiAm";
 $token .= "8Z53xhVPN";
 
