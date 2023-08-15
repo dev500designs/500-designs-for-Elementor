@@ -41,7 +41,7 @@ define( 'FHDESIGNS_ELEMENTOR_WIDGETS', __FILE__ );
 define( 'FHDESIGNS_ELEMENTOR_WIDGETS_VERSION', '1.0.6' );
 
 /**
- * Include the Unelab_Elementor_Widgets class.
+ * Include the 500Designs_Elementor_Widgets class.
  */
 require plugin_dir_path( FHDESIGNS_ELEMENTOR_WIDGETS ) . 'class-500designs-elementor-widgets.php';
 
